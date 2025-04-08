@@ -26,7 +26,7 @@ export default function JustificationScreenshot2() {
                     >
                         <div className="aspect-video relative">
                             <LazyLoadImage
-                                src="/placeholder.svg?height=720&width=1280"
+                                src="/utilization.png"
                                 alt="Problem Justification Screenshot"
                                 className="object-cover"
                             />
@@ -39,7 +39,7 @@ export default function JustificationScreenshot2() {
                         transition={{ delay: 0.5, duration: 0.5 }}
                         className="mt-4 bg-purple-800/30 backdrop-blur-sm p-4 rounded-lg border border-purple-500/30 text-center max-w-3xl"
                     >
-                        <p className="text-lg">Above graph depicts 60 responses taken from IIT Undergraduates</p>
+                        <p className="text-lg">Above graph depicts 58 responses taken from IIT Undergraduates</p>
                     </motion.div>
                 </div>
             </div>

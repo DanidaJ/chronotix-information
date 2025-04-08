@@ -13,7 +13,7 @@ export default function JustificationScreenshot() {
                     transition={{ duration: 0.5 }}
                     className="text-3xl md:text-4xl font-bold mb-6 text-center"
                 >
-                    Problem Evidence
+                    Problem Justification
                 </motion.h2>
 
                 <div className="flex-1 flex flex-col items-center justify-center">
@@ -25,7 +25,7 @@ export default function JustificationScreenshot() {
                     >
                         <div className="aspect-video relative">
                             <LazyLoadImage
-                                src="/placeholder.svg?height=720&width=1280"
+                                src="/stress.png"
                                 alt="Problem Justification Screenshot"
                                 className="object-cover"
                             />
@@ -38,7 +38,7 @@ export default function JustificationScreenshot() {
                         transition={{ delay: 0.5, duration: 0.5 }}
                         className="mt-4 bg-purple-800/30 backdrop-blur-sm p-4 rounded-lg border border-purple-500/30 text-center max-w-3xl"
                     >
-                        <p className="text-lg">Above graph depicts 60 responses taken from IIT Undergraduates</p>
+                        <p className="text-lg">Above graph depicts 58 responses taken from IIT Undergraduates</p>
                     </motion.div>
                 </div>
             </div>

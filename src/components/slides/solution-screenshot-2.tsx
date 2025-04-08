@@ -25,7 +25,7 @@ export default function SolutionScreenshot2() {
                     >
                         <div className="aspect-video relative">
                             <LazyLoadImage
-                                src="/placeholder.svg?height=720&width=1280"
+                                src="/room.png"
                                 alt="Solution Screenshot 2"
                                 className="object-cover"
                             />

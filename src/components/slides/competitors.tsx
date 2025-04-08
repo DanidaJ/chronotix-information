@@ -5,10 +5,10 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Competitors() {
     const competitors = [
-        { name: "Google Calander", color: "from-blue-500 to-cyan-400" },
-        { name: "EduTimer", color: "from-purple-500 to-pink-500" },
-        { name: "Timewise", color: "from-amber-400 to-orange-500" },
-        { name: "Celcat", color: "from-emerald-400 to-teal-500" },
+        { name: "Google Calander", color: "from-blue-500 to-cyan-400",image:"GoogleCalander.png" },
+        { name: "EduTimer", color: "from-purple-500 to-pink-500",image:"edutimer.png" },
+        { name: "Timewise", color: "from-amber-400 to-orange-500",image:"timewise.png" },
+        { name: "Celcat", color: "from-emerald-400 to-teal-500",image:"celcat.jpg" },
     ]
 
     return (
@@ -49,7 +49,7 @@ export default function Competitors() {
                             >
                                 <div className="w-full h-full rounded-full overflow-hidden bg-white/10 backdrop-blur-sm flex items-center justify-center">
                                     <LazyLoadImage
-                                        src="/placeholder.svg?height=96&width=96"
+                                        src={competitor.image}
                                         alt={competitor.name}
                                         width={96}
                                         height={96}

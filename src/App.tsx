@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button"
 import Introduction from "@/components/slides/introduction"
 import Content from "@/components/slides/content"
 import ProblemStatement from "@/components/slides/problem-statement"
-import ProblemJustification from "@/components/slides/problem-justification"
 import JustificationScreenshot from "@/components/slides/justification-screenshot"
 import ProposedSolution from "@/components/slides/proposed-solution"
 import TechStack from "@/components/slides/tech-stack"
@@ -33,7 +32,6 @@ export default function Home() {
         { id: "introduction", component: <Introduction /> },
         { id: "content", component: <Content /> },
         { id: "problem-statement", component: <ProblemStatement /> },
-        { id: "problem-justification", component: <ProblemJustification /> },
         { id: "justification-screenshot", component: <JustificationScreenshot /> },
         { id: "justification-screenshot-2", component: <JustificationScreenshot2/> },
         { id: "justification-screenshot-3", component: <JustificationScreenshot3 /> },
